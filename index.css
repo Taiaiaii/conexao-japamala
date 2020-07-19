@@ -1,0 +1,72 @@
+
+body {
+
+    font-family: 'Rowdies', cursive;
+    margin: 0 auto;
+    background: #DCDCDC;
+    
+}
+
+header {
+
+    background: linear-gradient( #C0C0C0,#D3D3D3, #DCDCDC);
+    padding: 50px;
+    
+
+}
+
+
+.caixa {
+
+    position: relative;
+    text-align: center;
+    width: 90%;   
+    margin: 0 auto;
+}
+
+.caixa h1 {
+
+    color: #8B008B;
+}
+
+.caixa p {
+
+  color:  #20B2AA;
+}
+
+
+footer {
+
+    background: linear-gradient( #DCDCDC, #D3D3D3,#C0C0C0 );
+    padding: 100px;
+    box-sizing:border-box ;
+}
+
+
+
+.carrossel {
+
+   
+}
+
+
+.teste1 {
+
+   
+    width: 100%;
+}
+
+.textos {
+    box-sizing:border-box ;
+   font-size: 20px;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    color: #8B008B;
+    margin-left: 10%;
+}
+
+.textos h2, strong {
+
+    color:  #20B2AA;
+}

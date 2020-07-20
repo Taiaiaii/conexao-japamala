@@ -1,26 +1,25 @@
-
 body {
 
     font-family: 'Rowdies', cursive;
     margin: 0 auto;
     background: #DCDCDC;
-    
+
 }
 
 header {
 
-    background: linear-gradient( #C0C0C0,#D3D3D3, #DCDCDC);
+    background: linear-gradient(#C0C0C0, #D3D3D3, #DCDCDC);
     padding: 50px;
     box-sizing: border-box;
-    
+
 
 }
 
 
 .caixa {
     top: 0px;
-    
-    width: 90%;   
+
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -28,7 +27,7 @@ header {
 .caixa h1 {
     padding-top: 50px;
     text-align: center;
-    color:#bb6ae7;
+    color: #bb6ae7;
     opacity: 0.7;
 }
 
@@ -42,16 +41,19 @@ header {
     margin-left: 2px;
     width: 10%;
     opacity: 0.9;
-    padding-top: 50px;
-    padding-left: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 10px grey;
+
+
 }
 
 
 footer {
 
-    background: linear-gradient( #DCDCDC, #D3D3D3,#C0C0C0 );
+    background: linear-gradient(#DCDCDC, #D3D3D3, #C0C0C0);
     padding: 100px;
-    box-sizing:border-box ;
+    box-sizing: border-box;
 }
 
 
@@ -60,42 +62,92 @@ footer {
 
     width: 100%;
     background: #DCDCDC;
-   
+
 }
 
 .owl-carousel .owl-stage-outer {
 
     width: 100%;
 }
+
 .carrossel img {
 
-    height: 400px;
+    height: 350px;
     width: 100%;
     object-fit: cover;
 }
 
-.textos {
-    
-   
-    box-sizing:border-box ;
-   font-size: 20px;
-    text-align: center;
+.como {
+    box-sizing: border-box;
     width: 90%;
-    padding: 20px;
-    color: black;
-    margin-left: 10%;
-    background: #DCDCDC;
-    margin-top: 25px;
+    text-align: left;
+    margin-top: 30px;
+    padding: 90px;
+
 }
 
-.textos h2, strong {
+.sobre {
 
-    color:  #bb6ae7;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    font-size: 20px;
+    width: 80%;
+    color: black;
+    padding: 30px;
+
+}
+
+.sobre p {
+    position: relative;
+    display: inline;
+    width: 20%;
+}
+
+.sobre strong, h3 {
+
+    color: #bb6ae7;
+    font-weight: bold;
+}
+
+.como img {
+    width: 15%;
+    box-shadow: 5px 5px 10px black;
+    float: right;
+
+}
+
+.o-que-e {
+
+    box-sizing: border-box;
+    width: 90%;
+    text-align: left;
+    margin-top: 30px;
+    padding: 90px;
+}
+
+.textos {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    color: black;
+    padding: 20px;
+
+
+}
+
+.textos strong {
+
+    color: #bb6ae7;
+    font-weight: bold;
 }
 
 
 .texto-img {
 
-    float: left;
-    width: 30%;
+
+    width: 15%;
+    box-shadow: 5px 5px 10px black;
 }

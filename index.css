@@ -129,11 +129,12 @@ footer {
 .textos {
     display: inline-block;
     vertical-align: top;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     width: 60%;
     color: black;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 1px;
 
 
 }
@@ -172,7 +173,7 @@ header {
 
     padding-top: 39px;
     font-size: 15px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .owl-carousel .owl-stage-outer {
@@ -193,7 +194,7 @@ header {
     width: 70%;
     text-align: left;
     margin-top: 6px;
-    padding: 5px;
+    padding: 15px;
     display: inline;
 
 }
@@ -216,5 +217,34 @@ header {
     width: 59%;
     color: black;
     padding: 5px;
+
+}
+
+.o-que-e {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.textos {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 10px;
+    width: 60%;
+    color: black;
+    padding: 5px;
+    padding-top: 1px;
+
+}
+
+.texto-img {
+
+
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
 
 }

@@ -3,6 +3,7 @@ body {
     font-family: 'Rowdies', cursive;
     margin: 0 auto;
     background: #DCDCDC;
+    border: 2px dotted#bb6ae7;
 
 }
 
@@ -18,7 +19,6 @@ header {
 
 .caixa {
     top: 0px;
-
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -150,4 +150,71 @@ footer {
 
     width: 15%;
     box-shadow: 5px 5px 10px black;
+}
+
+/* celular */
+
+@media screen and (max-width: 480px) {
+
+header {
+
+    padding: 5px;
+}
+
+.logo {
+
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 13%;
+}
+
+.titulo-principal {
+
+    padding-top: 39px;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.owl-carousel .owl-stage-outer {
+
+    width: 100%;
+    height: 150px;
+}
+
+.carrossel {
+
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+.como {
+    box-sizing: border-box;
+    width: 70%;
+    text-align: left;
+    margin-top: 6px;
+    padding: 5px;
+    display: inline;
+
+}
+
+.como img {
+    width: 30%;
+    box-shadow: 5px 5px 10px black;
+    float: right;;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.sobre {
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 10px;
+    width: 59%;
+    color: black;
+    padding: 5px;
+
 }

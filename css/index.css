@@ -7,13 +7,19 @@ body {
 
 }
 
-header {
+.cabecalho{
 
     background: linear-gradient(#C0C0C0, #D3D3D3, #DCDCDC);
     padding: 50px;
     box-sizing: border-box;
 
 
+}
+
+.site-container {
+    width: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 

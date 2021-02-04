@@ -11,26 +11,12 @@ let destaques = [
         titulo: "Conecte-se com você,<br> com o momento presente <br> e com o Divino "
         
     },
-    {
-        foto: "japamala3.jpg",
-        titulo: " "
-       
-    },
+
     {
         foto: "japamala4.jpg",
         titulo: "Conecte-se com você,<br> com o momento presente <br> e com o Divino "
         
     },
-    {
-        foto: "japamala5.jpg",
-        titulo: " "
-        
-    },
-
-    { foto: "japamala6.jpg",
-      titulo: " "
-    }
-
 
 ];
 
@@ -59,4 +45,4 @@ function trocaDestaque() {
 
 }
 
-setInterval(trocaDestaque, 5000);
+setInterval(trocaDestaque, 4000);

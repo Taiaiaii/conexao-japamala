@@ -1,49 +1,62 @@
-let banner = [
+let destaques = [
     {
-        foto: "japamala1.jpg"
-    }, 
-    {
-        foto: "japamala2.jpg"
-
-    }, 
-    {
-        foto: "japamala3.jpg"
-
-    }, 
-    {
-        foto: "japamala4.jpg"
-
+        foto: "japamala1.jpg",
+        titulo: "Conecte-se com você,<br> com o momento presente <br> e com o Divino "
+        
     },
-     {
-        foto: "japamala5.jpg"
 
+
+    {  // lista com objetoos
+        foto: "japamala2.jpg",
+        titulo: "Conecte-se com você,<br> com o momento presente <br> e com o Divino "
+        
     },
     {
-        foto: "japamala6.jpg"
-
+        foto: "japamala3.jpg",
+        titulo: " "
+       
     },
+    {
+        foto: "japamala4.jpg",
+        titulo: "Conecte-se com você,<br> com o momento presente <br> e com o Divino "
+        
+    },
+    {
+        foto: "japamala5.jpg",
+        titulo: " "
+        
+    },
+
+    { foto: "japamala6.jpg",
+      titulo: " "
+    }
 
 
 ];
 
-let limite = banner.length -1;
+
+let limite = destaques.length -1;
 let posicao = limite;
 
 function proximoItem() {
-    if (position < limite) {
+
+    if (posicao < limite) {
         posicao++;
-    }else {
+    } else {
         posicao = 0;
     }
 
     return posicao;
 }
 
-function trocaBanner () {
 
-    let destaque = banner[proximoItem()];
+function trocaDestaque() {
 
-    document.querySelector(".banner__foto").src = "img2/" + destaque.foto;
+    let destaque = destaques[proximoItem()];
+
+    document.querySelector(".banner__imagem").src = "img/" + destaque.foto;
+    document.querySelector(".banner__titulo").innerHTML = destaque.titulo;
+
 }
 
-trocaBanner()
+setInterval(trocaDestaque, 5000);
